@@ -15,7 +15,8 @@
         android:id="@+id/imageView"
         android:src="@drawable/go"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="doAnimateImage"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -25,6 +26,17 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="50dp"
-        android:onClick="doAnimate"/>
+        android:onClick="doAnimateText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click the Go image or the Animate Button."
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:fontFamily="sans-serif"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
 
 </RelativeLayout>

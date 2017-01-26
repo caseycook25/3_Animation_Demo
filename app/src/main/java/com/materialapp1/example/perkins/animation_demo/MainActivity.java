@@ -28,7 +28,15 @@ public class MainActivity extends AppCompatActivity implements Animation.Animati
         animRotate1.setAnimationListener(this);
     }
 
-    public void doAnimate(View view) {
+    public void doAnimateText(View view) {
+        animateIt();
+    }
+
+    public void doAnimateImage (View view){
+        animateIt();
+    }
+
+    private void animateIt() {
         myView.startAnimation(animRotate1);
     }
 
